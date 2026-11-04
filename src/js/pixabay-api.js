@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_KEY = 'YOUR_PIXABAY_API_KEY'; // <-- ЗАМІНИ НА СВІЙ КЛЮЧ!
+const API_KEY = '58317296-bbc3976f36cb43a36650e4d76'; // <-- ЗАМІНИ НА СВІЙ КЛЮЧ!
 const BASE_URL = 'https://pixabay.com/api/';
 
 /**
