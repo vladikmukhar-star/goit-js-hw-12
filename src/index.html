@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search - HW12</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="form">
+        <input
+          type="text"
+          name="search-text"
+          placeholder="Search images..."
+          autocomplete="off"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+
+      <ul class="gallery"></ul>
+
+      <button type="button" class="load-more is-hidden">Load more</button>
+
+      <div class="loader is-hidden"></div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
